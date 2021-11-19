@@ -41,7 +41,10 @@
     // "checkJs": true,                                  /* Enable error reporting in type-checked JavaScript files. */
     // "maxNodeModuleJsDepth": 1,                        /* Specify the maximum folder depth used for checking JavaScript files from `node_modules`. Only applicable with `allowJs`. */
     "plugins": [
-      { "transform": "ts-auto-mock/transformer" }
+      {
+        "transform": "ts-auto-mock/transformer",
+        "features": ["random"]
+      }
     ],
 
     /* Emit */
